@@ -1,0 +1,25 @@
+:root {
+    --bg-color: #f1f1f1;
+    --font-primmary: 'Montserrat', sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    line-height: 1.5;
+    background-color: var(--bg-color);
+    font-family: var(--font-primmary);
+}
+
+.container {
+    margin: 3rem;
+}
